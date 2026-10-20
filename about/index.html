@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bandi — Business cards to contacts</title>
+<meta name="description" content="Photograph business cards, one at a time or several at once. Bandi reads them for you, and you decide with a swipe who goes into your phone's contacts.">
+<link rel="icon" href="icon.png">
+<style>
+  :root {
+    --text: #1a1a1a;
+    --muted: #555;
+    --bg: #ffffff;
+    --accent: #5d5294;
+    --accent-soft: #f5f4ff;
+    --border: #e2e2e2;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    padding: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.6;
+  }
+  .wrap {
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 48px 20px 80px;
+  }
+  header {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    margin-bottom: 28px;
+  }
+  header img {
+    width: 76px;
+    height: 76px;
+    border-radius: 18px;
+    flex-shrink: 0;
+  }
+  h1 {
+    font-size: 2rem;
+    margin: 0;
+    line-height: 1.2;
+  }
+  .tagline {
+    color: var(--muted);
+    font-size: 1.05rem;
+    margin: 4px 0 0;
+  }
+  .lead {
+    font-size: 1.1rem;
+    margin: 0 0 28px;
+  }
+  .status {
+    display: inline-block;
+    background: var(--accent-soft);
+    color: var(--accent);
+    border: 1px solid #d2cefd;
+    border-radius: 999px;
+    padding: 6px 14px;
+    font-size: 0.92rem;
+    margin-bottom: 8px;
+  }
+  h2 {
+    font-size: 1.2rem;
+    margin-top: 2.2em;
+    margin-bottom: 0.6em;
+    border-bottom: 1px solid var(--border);
+    padding-bottom: 6px;
+  }
+  ol, ul { padding-left: 1.3em; }
+  li { margin-bottom: 0.5em; }
+  a { color: var(--accent); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  .features {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 12px;
+    margin: 1em 0;
+    padding: 0;
+    list-style: none;
+  }
+  .features li {
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 14px 16px;
+    margin: 0;
+  }
+  .features strong { display: block; margin-bottom: 2px; }
+  .features span { color: var(--muted); font-size: 0.95rem; }
+  footer {
+    margin-top: 3em;
+    padding-top: 1.2em;
+    border-top: 1px solid var(--border);
+    color: var(--muted);
+    font-size: 0.9rem;
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header>
+    <img src="icon.png" alt="Bandi app icon">
+    <div>
+      <h1>Bandi</h1>
+      <p class="tagline">Business cards to contacts</p>
+    </div>
+  </header>
+
+  <p class="lead">Photograph the business cards you collect, one at a time or several in one shot. Bandi reads each card for you, and you decide with a swipe which people go into your phone's contacts and which stay in Bandi.</p>
+
+  <span class="status">Coming soon to iPhone and Android</span>
+
+  <h2>How it works</h2>
+  <ol>
+    <li><strong>Scan.</strong> Photograph one card, or lay out a few and take one photo.</li>
+    <li><strong>Keep going.</strong> Cards are read in the background, and Bandi tells you when they're ready.</li>
+    <li><strong>Sort.</strong> Swipe right to add someone to your phone's contacts, left to keep them only in Bandi, or check off a whole batch at once.</li>
+  </ol>
+
+  <h2>What it does</h2>
+  <ul class="features">
+    <li><strong>Several cards, one photo</strong><span>Bandi finds each card in the photo and splits them apart.</span></li>
+    <li><strong>No duplicates</strong><span>Already in your contacts? Bandi spots the match instead of adding them twice.</span></li>
+    <li><strong>Remember where you met</strong><span>File cards under an event, straight from your calendar.</span></li>
+    <li><strong>On every phone you use</strong><span>Your cards are kept in your Bandi account, so a new phone doesn't lose them.</span></li>
+    <li><strong>Yours to take</strong><span>Export everything to a spreadsheet (CSV) whenever you like.</span></li>
+    <li><strong>Your choice on AI</strong><span>Cards are read by an AI service only if you allow it. Otherwise you type them in.</span></li>
+  </ul>
+
+  <h2>Privacy</h2>
+  <p>No ads, no tracking, and your data is never sold. You can delete any card, or your whole account and everything in it, from inside the app. The full details are in the <a href="../">privacy policy</a>.</p>
+
+  <h2>Contact &amp; Support</h2>
+  <p>Questions or problems: <a href="mailto:sg.piuskim@gmail.com">sg.piuskim@gmail.com</a></p>
+
+  <footer>Bandi · Made by Pius Kim · <a href="../">Privacy Policy</a></footer>
+
+</div>
+</body>
+</html>
